@@ -34,10 +34,9 @@ _comming soon..._
 
 ## Getting Help
 
-To ask questions, please use 👇🏻 or Follow our [Facebook page](https://www.facebook.com/TheExistingCompany).
+To ask questions, please use 👇🏻 or Follow our <a href="https://www.facebook.com/TheExistingCompany" target="_blank">Facebook page</a>.
 
-[![Start conversation](Assets/btn_start_conversation.png)](https://m.me/TheExistingCompany?ref=w12969068)
-
+<a href="https://m.me/TheExistingCompany?ref=w12969068" target="_blank">![Start conversation](Assets/btn_start_conversation.png)</a>
 
 
 
