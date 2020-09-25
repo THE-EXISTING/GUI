@@ -76,17 +76,21 @@
 
 Group of symbol name is always plural and capital name.
 
+**[Example]**
+
 > Icons/…Assets/…Icons/Black/…
 
 Symbol names are written in [snake_case](https://en.wikipedia.org/wiki/Snake_case).
 
 `type_subtype_state`
 
+**[Example]**
+
 > Icons/Black/ic_email
 > 
-> Buttons/Default/btn_default_enabled
+> Buttons/Default/btn\_default\_enabled
 > 
-> Buttons/Outline/btn_outline_pressed
+> Buttons/Outline/btn_outline\_pressed
 
 ### <a name="example-name-conventions"></a> **2.3 Example name conventions**
 
