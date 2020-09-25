@@ -30,7 +30,7 @@ Thank you to all our backers! 🙏
 
 _comming soon..._
 
-> Please shoot **100+**⭐️ to show this section.
+> Please shoot 100+⭐️ to show this section.
 
 
 ## Getting Help
