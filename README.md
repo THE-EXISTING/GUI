@@ -53,7 +53,7 @@
   └─ <project_name> Library.sketch ✱✱
 
 ```
-## <a name="name-convention"></a> **2. How to naming artboard/symbols (Name convention)**
+## <a name="name-convention"></a> **2. How to naming artboards/symbols (Name convention)**
 
 ### <a name="artboard-name"></a> **2.1 Artboard name**
 
@@ -99,11 +99,11 @@ Naming conventions for symbol type:
 | Asset Type | Prefix | Example |
 | --- | --- | --- |
 | Toolbar | tb_ | tb_default |
-| Button | btn_ | btn\_send_password |
+| Button | btn_ | btn\_send\_password |
 | Dialog | tb_ | tb_default |
 | Divider | divider_ | divider_horizontal |
 | Icon | ic_ | ic_star |
-| Menu | menu_ | menu\_submenu_bg |
+| Menu | menu_ | menu\_submenu\_bg |
 | Notification | noti_ | noti_bg |
 | Tabs | tab_ | tab_pressed |
 
@@ -122,7 +122,7 @@ Naming conventions for selector states:
 
 | Asset Type | Prefix | Example |
 | --- | --- | --- |
-| Normal | _normal | Buttons/Default/btn\_order\_normal |
+| Normal | \_normal | Buttons/Default/btn\_order\_normal |
 | Pressed | \_pressed | Buttons/Default/btn\_order\_pressed |
 | Focused | \_focused | Buttons/Default/btn\_order\_focused |
 | Disabled | \_disabled | Buttons/Default/btn\_order\_disabled |
@@ -190,7 +190,7 @@ EN/TH/CN/...
 
 ## <a name="make-components-by-features"></a> **4. Make components by features**
 
-We split component into **common components** and **feature components** when project is big for example:
+We split component into **common components** and **feature components** when project is large. For example:
 
 `🚀 Features/...`
 
@@ -226,7 +226,7 @@ Don’t forget to **create all error state** from every user-generated content
 
 ## <a name="i18n"></a> **7. Google sheet wording (i18N)**
 
-*Example:* [https://docs.google.com/spreadsheets/d/17sWoWSdgTzINACFAgvD6t7i_8NWMSA8b23YrwEp_Awo/](https://docs.google.com/spreadsheets/d/17sWoWSdgTzINACFAgvD6t7i_8NWMSA8b23YrwEp_Awo/)
+*Example:* [https://docs.google.com/spreadsheets/d/17sWoWSdgTzINACFAgvD6t7i\_8NWMSA8b23YrwEp\_Awo/](https://docs.google.com/spreadsheets/d/17sWoWSdgTzINACFAgvD6t7i_8NWMSA8b23YrwEp_Awo/)
 
 ### <a name="naming-id"></a> **7.1 Naming ID**
 
