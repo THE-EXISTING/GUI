@@ -1,10 +1,49 @@
 # GUI
 
-**Table of contents**
+# **Table of contents**
 
-# **⚒️ Design Structure**
+[⚒️ Design Structures] (#design-structures)
 
-## **1. Sketch file structure**
+1. [Sketch file structures] (#sketch-file-structures)
+
+2. [How to naming artboard/symbols (Name convention)] (#name-convention)
+
+	2.1 [Artboard name] (#artboard-name)
+	
+	2.2 [Symbol name] (#symbol-name)
+	
+	2.3 [Example name conventions] (#example-name-conventions)
+	
+3. [Design system structures] (#design-system-structures)
+
+	3.1 [Library structures] (#library-structures)
+	
+	3.2 [Symbol structures] (#symbol-structures)
+	
+	3.3 [Text styles] (#text-structures)
+	
+4. [Make components by features] (#make-components-by-features)
+
+5. [Deprecated components] (#deprecated-components)
+
+6. [Error state] (#error-state)
+
+7. [Google sheet wording (i18N)] (#i18n)
+
+	7.1 [Naming ID] (#naming-id)
+	
+[🚛 Deliver] (#deliver)
+
+1. [Export screens to Zeplin] (#export-screens-to-zeplin)
+
+2. [Link flow with Overflow.io] (#link-flow-with-overflow)
+
+3. [Create wording ID with Google Sheet (i18N)] (#create-wording-id)
+
+
+#<a name="design-structures"></a> **⚒️ Design Structures**
+
+##<a name="sketch-file-structures"></a> **1. Sketch file structures**
 
 ```
 [Project Folder]
@@ -14,9 +53,9 @@
   └─ <project_name> Library.sketch ✱✱
 
 ```
-## **2. How to naming artboard/symbols (Name convention)**
+##<a name="name-convention"></a> **2. How to naming artboard/symbols (Name convention)**
 
-### **2.1 Artboard name**
+###<a name="artboard-name"></a> **2.1 Artboard name**
 
 `Platform/Feature/Feature — State`
 
@@ -33,7 +72,7 @@
 | Loading |Components loading state |
 | Error |All fields error state |
 
-### **2.2 Symbol name**
+###<a name="symbol-name"></a> **2.2 Symbol name**
 
 Group of symbol name is always plural and capital name.
 
@@ -49,7 +88,7 @@ Symbol names are written in [snake_case](https://en.wikipedia.org/wiki/Snake_ca
 > 
 > Buttons/Outline/btn_outline_pressed
 
-### **2.3 Example name conventions**
+###<a name="example-name-conventions"></a> **2.3 Example name conventions**
 
 Naming conventions for symbol type:
 
@@ -85,9 +124,9 @@ Naming conventions for selector states:
 | Disabled | \_disabled | Buttons/Default/btn\_order\_disabled |
 | Selected | \_selected | Buttons/Default/btn\_order\_selected |
 
-## **3. Design system structure**
+##<a name="design-system-structures"></a> **3. Design system structures**
 
-### **3.1 Library structure**
+###<a name="library-structures"></a> **3.1 Library structures**
 
 ```
 [Library.sketch]
@@ -106,7 +145,7 @@ Naming conventions for selector states:
 2. Easy to use just a few click.
 3. Easy to control design system with developer.
 
-### **3.2 Symbol structure**
+###<a name="symbol-structures"></a> **3.2 Symbol structures**
 
 ```
 [Symbols]
@@ -128,7 +167,7 @@ Naming conventions for selector states:
  ├─  ...
 ```
 
-### **3.3 Text style**
+###<a name="text-styles"></a> **3.3 Text styles**
 
 ```
 EN/TH/CN/...
@@ -145,7 +184,7 @@ EN/TH/CN/...
       └─ Right
 ```
 
-## **4. Make components by features**
+##<a name="make-components-by-features"></a> **4. Make components by features**
 
 We split component into **common components** and **feature components** when project is big for example:
 
@@ -153,7 +192,7 @@ We split component into **common components** and **feature components** whe
 
 ![https://i.imgur.com/RCiGFNI.png](https://i.imgur.com/RCiGFNI.png)
 
-## **5. Deprecated components**
+##<a name="deprecated-components"></a> **5. Deprecated components**
 
 When you want to update **the new version of components, you have to move your old components to:**
 
@@ -169,7 +208,7 @@ and change the name to `_Deprecated/...`
 
 > Text Field/Outline/…↓_Deprecated/Text Field/Outline/…
 
-## **6. Error state**
+##<a name="error-state"></a> **6. Error state**
 
 Don’t forget to **create all error state** from every user-generated content by linking with i18N sheet example:
 
@@ -181,11 +220,11 @@ Don’t forget to **create all error state** from every user-generated content
 
 ![https://i.imgur.com/LkcrBye.png](https://i.imgur.com/LkcrBye.png)
 
-## **7. Google sheet wording (i18N)**
+##<a name="i18n"></a> **7. Google sheet wording (i18N)**
 
 *Example:* [https://docs.google.com/spreadsheets/d/17sWoWSdgTzINACFAgvD6t7i_8NWMSA8b23YrwEp_Awo/](https://docs.google.com/spreadsheets/d/17sWoWSdgTzINACFAgvD6t7i_8NWMSA8b23YrwEp_Awo/)
 
-### **7.1 Naming ID**
+###<a name="naming-id"></a> **7.1 Naming ID**
 
 1. Common wording (for reuse ID)
 
@@ -194,50 +233,45 @@ Don’t forget to **create all error state** from every user-generated content
 | ok | OK | ตกลง |
 | cancel | Cancel | ยกเลิก |
 | error_empty | This field cannot be empty. | กรุณากรอกข้อมูล |
-| error_empty_select | Please select information. | กรุณาเลือกข้อมูล |
+| error\_empty_select | Please select information. | กรุณาเลือกข้อมูล |
 | error_format | Incorrect format. | รูปแบบข้อมูลไม่ถูกต้อง |
 
 2. Fix wording → feature_wording
+
 | ID | EN | TH |
 | --- | --- | --- |
-| home_how_to_use | How to use? | วิธีการใช้งาน |
+| home\_how\_to\_use | How to use? | วิธีการใช้งาน |
 
-3. Error wording → feature_error_component_case
+3. Error wording → feature\_error\_component\_case
 
 | ID | Common ID | EN | TH |
 | --- | --- | --- | --- |
 | register\_error\_emai\_empty | error_empty | This field cannot be empty. | กรุณากรอกข้อมูล |
 | register\_error\_emai\_format | error_format | Incorrect format. | กรุณากรอกข้อมูล |
 
-# **🚛 Deliver**
+#<a name="deliver"></a> **🚛 Deliver**
 
-### **1. Export screens to Zeplin**
-
-### **1. Export screens to Zeplin**
+###<a name="export-screens-to-zeplin"></a> **1. Export screens to Zeplin**
 
 1. Upload screens and categorize into features
-
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/453c5c96-3b2c-411c-8509-2e9e11e248a1/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/453c5c96-3b2c-411c-8509-2e9e11e248a1/Untitled.png)
+![https://github.com/THE-EXISTING/GUI/blob/master/Assets/Images/export1.png?raw=true](https://github.com/THE-EXISTING/GUI/blob/master/Assets/Images/export1.png?raw=true)
 
 2. Upload all assets (icons, logos, images)
-
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0a99160f-463a-4d53-9109-1f38e2152003/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0a99160f-463a-4d53-9109-1f38e2152003/Untitled.png)
+![https://github.com/THE-EXISTING/GUI/blob/master/Assets/Images/export2.png?raw=true](https://github.com/THE-EXISTING/GUI/blob/master/Assets/Images/export2.png?raw=true)
 
 3. Update style guides (colors, text styles)
-
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/eeb39bcc-2d22-4bb6-ab65-159ac12e8ac4/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/eeb39bcc-2d22-4bb6-ab65-159ac12e8ac4/Untitled.png)
+![https://github.com/THE-EXISTING/GUI/blob/master/Assets/Images/export3.png?raw=true](https://github.com/THE-EXISTING/GUI/blob/master/Assets/Images/export3.png?raw=true)
 
 4. Upload project documentation (optional)
 
 5. Define states and features into [tags](https://blog.zeplin.io/organizing-screens-in-zeplin-with-tags-128dc3ed0749) (optional)
-
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0e409b20-8d0b-4487-9091-b42cc44e4bf0/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0e409b20-8d0b-4487-9091-b42cc44e4bf0/Untitled.png)
+![https://github.com/THE-EXISTING/GUI/blob/master/Assets/Images/export5.png?raw=true](https://github.com/THE-EXISTING/GUI/blob/master/Assets/Images/export5.png?raw=true)
 
 Using tags is easy for screen types, states, and features sorting.
 
-### **2. Link flow with [Overflow.io](http://overflow.io/)**
+###<a name="link-flow-with-overflow"></a> **2. Link flow with [Overflow.io](http://overflow.io/)**
 
-### **3. Create wording ID with Google Sheet (i18N)**
+###<a name="create-wording-id"></a> **3. Create wording ID with Google Sheet (i18N)**
 
 ## Funding
 
@@ -265,7 +299,7 @@ Thank you to all our backers! 🙏
 
 ### Contributors
 
-_comming soon..._
+_coming soon..._
 
 > Please shoot 100+⭐️ to show this section.
 
