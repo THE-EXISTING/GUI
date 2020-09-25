@@ -2,48 +2,48 @@
 
 # **Table of contents**
 
-[⚒️ Design Structures] (#design-structures)
+[⚒️ Design Structures](#design-structures)
 
-1. [Sketch file structures] (#sketch-file-structures)
+1. [Sketch file structures](#sketch-file-structures)
 
-2. [How to naming artboard/symbols (Name convention)] (#name-convention)
+2. [How to naming artboard/symbols (Name convention)](#name-convention)
 
-	2.1 [Artboard name] (#artboard-name)
+	2.1 [Artboard name](#artboard-name)
 	
 	2.2 [Symbol name] (#symbol-name)
 	
-	2.3 [Example name conventions] (#example-name-conventions)
+	2.3 [Example name conventions](#example-name-conventions)
 	
-3. [Design system structures] (#design-system-structures)
+3. [Design system structures](#design-system-structures)
 
-	3.1 [Library structures] (#library-structures)
+	3.1 [Library structures](#library-structures)
 	
-	3.2 [Symbol structures] (#symbol-structures)
+	3.2 [Symbol structures](#symbol-structures)
 	
-	3.3 [Text styles] (#text-structures)
+	3.3 [Text styles](#text-structures)
 	
-4. [Make components by features] (#make-components-by-features)
+4. [Make components by features](#make-components-by-features)
 
-5. [Deprecated components] (#deprecated-components)
+5. [Deprecated components](#deprecated-components)
 
-6. [Error state] (#error-state)
+6. [Error state](#error-state)
 
-7. [Google sheet wording (i18N)] (#i18n)
+7. [Google sheet wording (i18N)](#i18n)
 
-	7.1 [Naming ID] (#naming-id)
+	7.1 [Naming ID](#naming-id)
 	
-[🚛 Deliver] (#deliver)
+[🚛 Deliver](#deliver)
 
-1. [Export screens to Zeplin] (#export-screens-to-zeplin)
+1. [Export screens to Zeplin](#export-screens-to-zeplin)
 
-2. [Link flow with Overflow.io] (#link-flow-with-overflow)
+2. [Link flow with Overflow.io](#link-flow-with-overflow)
 
-3. [Create wording ID with Google Sheet (i18N)] (#create-wording-id)
+3. [Create wording ID with Google Sheet (i18N)](#create-wording-id)
 
 
-#<a name="design-structures"></a> **⚒️ Design Structures**
+# <a name="design-structures"></a> **⚒️ Design Structures**
 
-##<a name="sketch-file-structures"></a> **1. Sketch file structures**
+## <a name="sketch-file-structures"></a> **1. Sketch file structures**
 
 ```
 [Project Folder]
@@ -53,9 +53,9 @@
   └─ <project_name> Library.sketch ✱✱
 
 ```
-##<a name="name-convention"></a> **2. How to naming artboard/symbols (Name convention)**
+## <a name="name-convention"></a> **2. How to naming artboard/symbols (Name convention)**
 
-###<a name="artboard-name"></a> **2.1 Artboard name**
+### <a name="artboard-name"></a> **2.1 Artboard name**
 
 `Platform/Feature/Feature — State`
 
@@ -72,7 +72,7 @@
 | Loading |Components loading state |
 | Error |All fields error state |
 
-###<a name="symbol-name"></a> **2.2 Symbol name**
+### <a name="symbol-name"></a> **2.2 Symbol name**
 
 Group of symbol name is always plural and capital name.
 
@@ -88,7 +88,7 @@ Symbol names are written in [snake_case](https://en.wikipedia.org/wiki/Snake_ca
 > 
 > Buttons/Outline/btn_outline_pressed
 
-###<a name="example-name-conventions"></a> **2.3 Example name conventions**
+### <a name="example-name-conventions"></a> **2.3 Example name conventions**
 
 Naming conventions for symbol type:
 
@@ -124,9 +124,9 @@ Naming conventions for selector states:
 | Disabled | \_disabled | Buttons/Default/btn\_order\_disabled |
 | Selected | \_selected | Buttons/Default/btn\_order\_selected |
 
-##<a name="design-system-structures"></a> **3. Design system structures**
+## <a name="design-system-structures"></a> **3. Design system structures**
 
-###<a name="library-structures"></a> **3.1 Library structures**
+### <a name="library-structures"></a> **3.1 Library structures**
 
 ```
 [Library.sketch]
@@ -145,7 +145,7 @@ Naming conventions for selector states:
 2. Easy to use just a few click.
 3. Easy to control design system with developer.
 
-###<a name="symbol-structures"></a> **3.2 Symbol structures**
+### <a name="symbol-structures"></a> **3.2 Symbol structures**
 
 ```
 [Symbols]
@@ -167,7 +167,7 @@ Naming conventions for selector states:
  ├─  ...
 ```
 
-###<a name="text-styles"></a> **3.3 Text styles**
+### <a name="text-styles"></a> **3.3 Text styles**
 
 ```
 EN/TH/CN/...
@@ -184,7 +184,7 @@ EN/TH/CN/...
       └─ Right
 ```
 
-##<a name="make-components-by-features"></a> **4. Make components by features**
+## <a name="make-components-by-features"></a> **4. Make components by features**
 
 We split component into **common components** and **feature components** when project is big for example:
 
@@ -192,7 +192,7 @@ We split component into **common components** and **feature components** whe
 
 ![https://i.imgur.com/RCiGFNI.png](https://i.imgur.com/RCiGFNI.png)
 
-##<a name="deprecated-components"></a> **5. Deprecated components**
+## <a name="deprecated-components"></a> **5. Deprecated components**
 
 When you want to update **the new version of components, you have to move your old components to:**
 
@@ -208,7 +208,7 @@ and change the name to `_Deprecated/...`
 
 > Text Field/Outline/…↓_Deprecated/Text Field/Outline/…
 
-##<a name="error-state"></a> **6. Error state**
+## <a name="error-state"></a> **6. Error state**
 
 Don’t forget to **create all error state** from every user-generated content by linking with i18N sheet example:
 
@@ -220,11 +220,11 @@ Don’t forget to **create all error state** from every user-generated content
 
 ![https://i.imgur.com/LkcrBye.png](https://i.imgur.com/LkcrBye.png)
 
-##<a name="i18n"></a> **7. Google sheet wording (i18N)**
+## <a name="i18n"></a> **7. Google sheet wording (i18N)**
 
 *Example:* [https://docs.google.com/spreadsheets/d/17sWoWSdgTzINACFAgvD6t7i_8NWMSA8b23YrwEp_Awo/](https://docs.google.com/spreadsheets/d/17sWoWSdgTzINACFAgvD6t7i_8NWMSA8b23YrwEp_Awo/)
 
-###<a name="naming-id"></a> **7.1 Naming ID**
+### <a name="naming-id"></a> **7.1 Naming ID**
 
 1. Common wording (for reuse ID)
 
@@ -249,9 +249,9 @@ Don’t forget to **create all error state** from every user-generated content
 | register\_error\_emai\_empty | error_empty | This field cannot be empty. | กรุณากรอกข้อมูล |
 | register\_error\_emai\_format | error_format | Incorrect format. | กรุณากรอกข้อมูล |
 
-#<a name="deliver"></a> **🚛 Deliver**
+# <a name="deliver"></a> **🚛 Deliver**
 
-###<a name="export-screens-to-zeplin"></a> **1. Export screens to Zeplin**
+### <a name="export-screens-to-zeplin"></a> **1. Export screens to Zeplin**
 
 1. Upload screens and categorize into features
 ![https://github.com/THE-EXISTING/GUI/blob/master/Assets/Images/export1.png?raw=true](https://github.com/THE-EXISTING/GUI/blob/master/Assets/Images/export1.png?raw=true)
@@ -269,9 +269,9 @@ Don’t forget to **create all error state** from every user-generated content
 
 Using tags is easy for screen types, states, and features sorting.
 
-###<a name="link-flow-with-overflow"></a> **2. Link flow with [Overflow.io](http://overflow.io/)**
+### <a name="link-flow-with-overflow"></a> **2. Link flow with [Overflow.io](http://overflow.io/)**
 
-###<a name="create-wording-id"></a> **3. Create wording ID with Google Sheet (i18N)**
+### <a name="create-wording-id"></a> **3. Create wording ID with Google Sheet (i18N)**
 
 ## Funding
 
