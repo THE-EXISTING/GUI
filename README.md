@@ -10,7 +10,7 @@
 
 	2.1 [Artboard name](#artboard-name)
 	
-	2.2 [Symbol name] (#symbol-name)
+	2.2 [Symbol name](#symbol-name)
 	
 	2.3 [Example name conventions](#example-name-conventions)
 	
