@@ -1,6 +1,7 @@
 # GUI
 
 
+
 ## Funding
 
 You can also support this project by becoming a sponsor. Your logo will show up here with a link to your website.
@@ -36,8 +37,7 @@ _comming soon..._
 
 To ask questions, please use 👇🏻 or Follow our <a href="https://www.facebook.com/TheExistingCompany" target="_blank">Facebook page</a>.
 
-<a href="https://m.me/TheExistingCompany?ref=w12969068" target="_blank">![Start conversation](Assets/btn_start_conversation.png)</a>
-
+<a href="https://m.me/TheExistingCompany?ref=w12969068" target="_blank"><img src="Assets/btn_start_conversation.png" width="270"  /></a>
 
 
 To report bugs, please use the GitHub project.
