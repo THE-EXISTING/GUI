@@ -220,7 +220,7 @@ Don’t forget to **create all error state** from every user-generated content
 - Upload files / images
 - Q&A
 - Feedback / Review
-- And more…
+- and more…
 
 ![https://i.imgur.com/LkcrBye.png](https://i.imgur.com/LkcrBye.png)
 
