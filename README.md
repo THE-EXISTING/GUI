@@ -147,7 +147,7 @@ Naming conventions for selector states:
 
 1. Team can control components in same direction. ✱✱
 2. Easy to use with a few click.
-3. Easy to control design system with developer.
+3. Having a shared database of components is easy to control design systems with developers.
 
 ### <a name="symbol-structures"></a> **3.2 Symbol structures**
 
