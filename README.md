@@ -128,6 +128,10 @@ Naming conventions for selector states:
 | Disabled | \_disabled | Buttons/Default/btn\_order\_disabled |
 | Selected | \_selected | Buttons/Default/btn\_order\_selected |
 
+For example:
+
+![https://github.com/THE-EXISTING/GUI/blob/master/Assets/Images/buttons.png?raw=true](https://github.com/THE-EXISTING/GUI/blob/master/Assets/Images/buttons.png?raw=true)
+
 ## <a name="design-system-structures"></a> **3. Design system structures**
 
 ### <a name="library-structures"></a> **3.1 Library structures**
@@ -142,6 +146,8 @@ Naming conventions for selector states:
  ├─ Symbols
  └─ Deprecated Symbols
 ```
+
+![https://github.com/THE-EXISTING/GUI/blob/master/Assets/Images/library_structures.png?raw=true](https://github.com/THE-EXISTING/GUI/blob/master/Assets/Images/library_structures.png?raw=true)
 
 **Reuse components concept** is very important to us because:
 
@@ -171,6 +177,8 @@ Naming conventions for selector states:
  ├─  ...
 ```
 
+![https://github.com/THE-EXISTING/GUI/blob/master/Assets/Images/library_symbols.png?raw=true](https://github.com/THE-EXISTING/GUI/blob/master/Assets/Images/library_symbols.png?raw=true)
+
 ### <a name="text-styles"></a> **3.3 Text styles**
 
 ```
@@ -188,6 +196,8 @@ EN/TH/CN/...
       └─ Right
 ```
 
+![https://github.com/THE-EXISTING/GUI/blob/master/Assets/Images/text_styles.png?raw=true](https://github.com/THE-EXISTING/GUI/blob/master/Assets/Images/text_styles.png?raw=true)
+
 ## <a name="make-components-by-features"></a> **4. Make components by features**
 
 We split component into **common components** and **feature components** for big project. 
@@ -196,7 +206,7 @@ For example:
 
 `🚀 Features/...`
 
-![https://i.imgur.com/RCiGFNI.png](https://i.imgur.com/RCiGFNI.png)
+![https://github.com/THE-EXISTING/GUI/blob/master/Assets/Images/library_features.png?raw=true](https://github.com/THE-EXISTING/GUI/blob/master/Assets/Images/library_features.png?raw=true)
 
 ## <a name="deprecated-components"></a> **5. Deprecated components**
 
