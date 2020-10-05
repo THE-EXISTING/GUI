@@ -145,9 +145,9 @@ Naming conventions for selector states:
 
 **Reuse components concept** is very important to us because:
 
-1. Team can control components in one direction. ✱✱
-2. Easy to use just a few click.
-3. Easy to control design system with developer.
+1. Team can control components in same direction. ✱✱
+2. Easy to use with a few click.
+3. Having a shared database of components is easy to control design systems with developers.
 
 ### <a name="symbol-structures"></a> **3.2 Symbol structures**
 
@@ -190,7 +190,9 @@ EN/TH/CN/...
 
 ## <a name="make-components-by-features"></a> **4. Make components by features**
 
-We split component into **common components** and **feature components** when project is large. For example:
+We split component into **common components** and **feature components** for big project. 
+
+For example:
 
 `🚀 Features/...`
 
@@ -214,13 +216,15 @@ and change the name to `_Deprecated/...`
 
 ## <a name="error-state"></a> **6. Error state**
 
-Don’t forget to **create all error state** from every user-generated content by linking with i18N sheet example:
+Don’t forget to **create all error states** from every user-generated content by linking with i18N sheet.
+
+For example:
 
 - Type form
 - Upload files / images
 - Q&A
 - Feedback / Review
-- And more…
+- and more…
 
 ![https://i.imgur.com/LkcrBye.png](https://i.imgur.com/LkcrBye.png)
 
