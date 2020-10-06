@@ -324,7 +324,7 @@ Thank you to all our backers! 🙏
 
 ## Getting Help
 
-To ask questions, please use 👇🏻 or Follow our <a href="https://www.facebook.com/TheExistingCompany" target="_blank">Facebook page</a>.
+To ask questions, please use 👇🏻 or Follow our <a href="https://www.facebook.com/TheExistingCompany" target="_blank">Facebook page</a>. 🇹🇭
 
 <a href="https://m.me/TheExistingCompany?ref=w12969068" target="_blank"><img src="Assets/btn_start_conversation.png" width="270"  /></a>
 
