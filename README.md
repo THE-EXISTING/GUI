@@ -317,9 +317,9 @@ Thank you to all our backers! 🙏
 
 ### Contributors
 
-_coming soon..._
-
-> Please shoot 100+⭐️ to show this section.
+<a href="https://github.com/THE-EXISTING/GUI/graphs/contributors" target="_blank">
+  <img src="https://opencollective.com/gui-ui-guideline/contributors.svg?width=890"/>
+</a>
 
 
 ## Getting Help
