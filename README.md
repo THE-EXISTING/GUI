@@ -222,7 +222,7 @@ and change the name to `_Deprecated/...`
 
 **[Example]**
 
-> Text Field/Outline/…↓_Deprecated/Text Field/Outline/…
+> Text Field/Outline/… → _Deprecated/Text Field/Outline/…
 
 ## <a name="error-state"></a> **6. Error state**
 
@@ -240,7 +240,7 @@ For example:
 
 ## <a name="i18n"></a> **7. Google sheet wording (i18N)**
 
-*Example:* [https://docs.google.com/spreadsheets/d/17sWoWSdgTzINACFAgvD6t7i\_8NWMSA8b23YrwEp\_Awo/](https://docs.google.com/spreadsheets/d/17sWoWSdgTzINACFAgvD6t7i_8NWMSA8b23YrwEp_Awo/)
+[*Example Wording*](https://docs.google.com/spreadsheets/d/19VL2TOYzEMo2sT3eW_o-ng_5UAFLhXRRcpsMGbLikzc)
 
 ### <a name="naming-id"></a> **7.1 Naming ID**
 
